@@ -1,0 +1,33 @@
+.warning {
+  padding: 10px 20px;
+  background-color: #f5d7d7;
+  font-weight: bold;
+  margin: 15px;
+}
+
+table {
+  margin-top: 15px;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+h1, form {
+  text-align: center;
+}
+
+th.timestamp {
+  width: 20%;
+}
+
+th.log-str {
+  width: 80%;
+}

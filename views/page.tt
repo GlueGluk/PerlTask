@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>Поиск в логе</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class=page>
+  <h1>Поиск по получателю</h1>
+  <form>
+    <label>Введите адрес получателя:</label>
+    <input name="address" value="[% address %]" type="text">
+    <button type="submit">Найти</button>
+  </form>
+  [% IF warning %]
+    <div class="warning">Найдено более 100 записей!</div>
+  [% END %]
+  [% IF msg %]
+    <div> [% msg %] </div>
+  [% END %]
+</div>
+</body>
+</html>
